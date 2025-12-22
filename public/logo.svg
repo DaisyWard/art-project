@@ -1,0 +1,25 @@
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Subtle gradient -->
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#e63946;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f77f00;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Simple geometric shape - abstract brush stroke -->
+  <path d="M 100 200 Q 150 120 200 200 T 300 200" 
+        stroke="url(#accent)" 
+        stroke-width="8" 
+        fill="none" 
+        stroke-linecap="round"/>
+  
+  <!-- Gallery name -->
+  <text x="200" y="280" 
+        font-family="sans-serif" 
+        font-size="28" 
+        font-weight="300" 
+        fill="#2c2416" 
+        text-anchor="middle" 
+        letter-spacing="6">GALERIE</text>
+</svg>
