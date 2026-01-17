@@ -11,14 +11,17 @@ const MovieImage= ({ poster, title }) => {
 //       ? fallbackPoster
 //       : `https://image.tmdb.org/t/p/original/${poster}`
 
+console.log('poster url:', poster);
+
   return (
+    <div style={{ position: 'relative', width: '160px', height: '240px', overflow: 'hidden' }}>
     <Image
-      priority={true}
-      src={poster}
-      alt={title}
-      width='256'
-      height='393'
+      src={`/api/imageProxy?url=${encodeURIComponent(poster)}`}
+      alt="Artwork"
+      width={843}
+      height={843}
     />
+    </div>
   )
 }
 

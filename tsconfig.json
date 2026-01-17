@@ -24,7 +24,7 @@
       "@styles/*": ["./app/styles/*"],
       "@context/*": ["./app/context/*"],
       "@utils/*": ["./app/utils/*"],
-      "@public/*": ["./public/*"]
+      "@public/*": ["./public/*"],
     }
   },
   "include": [
